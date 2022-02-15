@@ -1,0 +1,69 @@
+*{line-height: 1.5; font-family: Arial, Helvetica, sans-serif; margin: 0;}
+header, footer{background-color: #f8f9fa;}
+header a{padding: 0% 5%;}
+footer{padding: 20px 0px;}
+footer p{text-align: right; font-weight: bold;}
+p{font-size: 16px; margin-top: 0; margin-bottom: 1rem; color: #414141;}
+.space{margin-bottom: 5%;}
+hr{border: solid 1px #414141;}
+h1, h2{text-transform: uppercase;}
+em{padding-left: 3%; color: #17a2b8;}
+header h1{padding: 3%;}
+header nav{padding-bottom: 2%;}
+a:link {color: #343a40; text-decoration: none;}
+a:visited {color: #343a40;}
+a:hover {color: #007bff;}
+a:active {color: #007bff;}
+.bg-img-1{background-image: url(../images/pozadina/i-rabuzin-bg-img.jpg);}
+.bg-img-2{background-image: url(../images/novosti/logo-150x152.png); background-position: right;}
+.contain{background-size:contain; background-repeat: no-repeat;}
+.container > .row .col-lg-4, .col-md-6, .col-md-12, .col-sm-12{margin-top: 5%;}
+article h2, th, caption{
+    padding: 5% 0% 0% 3%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 0;
+    padding-bottom: 0;
+    font-size: 18pt;
+    letter-spacing: 1pt;
+    font-weight: bold;
+}
+article p{
+    padding: 3%;
+    font-size: 14pt;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+article img{
+    width: 100%;
+    margin: 0;
+}
+.pozadina{
+    background-image: url(../images/pozadina/bg-img-o-nama.jpg);
+    z-index: -2;
+    min-height: 400px;
+}
+.pozadina > .row{
+    background-color: rgba(0,0,0,0.6);
+    height: 50%;
+    padding: 5% 8%;
+    width: 70%;
+    margin: 0 auto;
+    z-index: 1;
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
+.pozadina h1{
+    font-size: 5vw;
+    letter-spacing: 3pt;
+    padding: 20px;
+    font-weight: bold;
+}
+.pozadina li{margin-bottom: 2%;}
+.pozadina a div{padding: 10px; background-color: rgba(255, 255, 255, 0.9); color: black; border-radius: 12px;}
+.text-cont{
+    width: 80%;
+    margin: 0 auto;
+}
+article img{filter: brightness(100%);}
+article img:hover{filter: brightness(70%);}
